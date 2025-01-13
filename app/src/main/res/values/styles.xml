@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Global theme to completely remove the ActionBar -->
+    <style name="NoActionBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Remove the title bar -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- Remove the ActionBar -->
+        <item name="android:windowActionBar">false</item>
+        <!-- Optional: Make it fullscreen to eliminate the space above the content -->
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>

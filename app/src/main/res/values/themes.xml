@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Theme.FixedButton" parent="Theme.AppCompat.Light.NoActionBar" />
+
+    <style name="Base.Theme.AppLogin" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">#0070AD</item>
+        <item name="colorPrimaryVariant">#E8E8E8</item>
+        <item name="colorOnPrimary">#98C4CA</item>
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/PURPLE</item>
+        <item name="colorSecondaryVariant">@color/green</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize button appearance -->
+    </style>
+
+
+    <style name="Theme.AppLogin" parent="Base.Theme.AppLogin" />
+</resources>
